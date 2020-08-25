@@ -15,7 +15,9 @@ public class User_Data_Input
 		Calc_Substraction sub = new Calc_Substraction();
 		Calc_Multiplication multi = new Calc_Multiplication();
 		Calc_Division div = new Calc_Division();
-	
+		int ans;
+		
+		do {
 	
 		System.out.println("performing calculation for 'n' numbers : ");
 		System.out.println("enter number of  numbers to be used for operation : ");
@@ -48,10 +50,13 @@ public class User_Data_Input
 				result = div.division(array);
 				System.out.println("Divison of all numbers  is " + result);
 		break;
-
 	}
 
 	}
+		System.out.println("Do you want to Continue press 1 or press 0 to exit : ");
+		ans = input.nextInt();
+		}
+		while(ans == 1);
 
 	}
 }
