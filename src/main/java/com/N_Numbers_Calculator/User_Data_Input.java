@@ -18,7 +18,8 @@ public class User_Data_Input
 		int ans;
 		
 		do {
-	
+		System.out.println("Enter the operator for operation(+,-,*,/)");
+		String operator = input.next();
 		System.out.println("performing calculation for 'n' numbers : ");
 		System.out.println("enter number of  numbers to be used for operation : ");
 		int size = input.nextInt();
@@ -28,8 +29,6 @@ public class User_Data_Input
 		for (int index = 0; index < size; index++) {
 			array[index] = input.nextFloat();
 			}
-		System.out.println("Enter the operator for operation(+,-,*,/)");
-		String operator = input.next();
 		switch (operator) {
 		case "+": {
 			result = addition.add(array);
