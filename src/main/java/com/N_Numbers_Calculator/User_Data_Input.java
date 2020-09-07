@@ -46,8 +46,13 @@ public class User_Data_Input
 		break;
 		}
 		case "/": {
+			try {
 				result = div.division(array);
 				System.out.println("Divison of all numbers  is " + result);
+			}catch (ArithmeticException E)
+			{
+				System.out.println("No division by zero ");
+			}
 		break;
 	}
 
