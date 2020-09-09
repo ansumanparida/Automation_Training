@@ -6,7 +6,7 @@ public class User_Data_Input
 {
 
 	@SuppressWarnings("resource")
-	public static void main(String[] args) 
+	public static void main(String[] args) throws Custom_Exception 
 	{
 
 		Scanner input = new Scanner(System.in);
@@ -49,9 +49,9 @@ public class User_Data_Input
 			try {
 				result = div.division(array);
 				System.out.println("Divison of all numbers  is " + result);
-			}catch (ArithmeticException E)
+			}catch (Custom_Exception e)
 			{
-				System.out.println("No division by zero ");
+				System.out.println(e.getMessage());
 			}
 		break;
 	}
