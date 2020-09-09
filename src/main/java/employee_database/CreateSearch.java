@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class CreateSearch {
 	
+	@SuppressWarnings("resource")
 	public void menuDriven() {
 		System.out.println("**Employee Record Management**");
 		System.out.println(": Enter Your Choice :"+"\n"+"Press 1 to create employee"+"\n"+"Press 2 to search employee"+"\n"+"Press 3 to delete employee"+"\n"+"press any other to exit");

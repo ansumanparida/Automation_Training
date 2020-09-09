@@ -10,6 +10,7 @@ public class Details {
 		public static ArrayList<String> department=new ArrayList<String>();
 		public static ArrayList<Integer> employeeId=new ArrayList<Integer>();
 		public static ArrayList<String> address=new ArrayList<String>();
+		@SuppressWarnings("static-access")
 		public  Details(String name,int empId,String address,String department )
 		{
 			this.name.add(name);
@@ -22,6 +23,8 @@ public class Details {
 		public Details() {
 			
 		}
+		
+		@SuppressWarnings({ "resource", "static-access" })
 		public void createEmployeeDetails()
 		{
 			Scanner keyboardInput=new Scanner(System.in);
