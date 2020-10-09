@@ -18,7 +18,7 @@ public class Baseclass {
 	public static Properties properties;
 	public static WebDriver driver;
 	String weburl;
-	//String browser;
+	String browser;
 	
 	
 	@BeforeMethod

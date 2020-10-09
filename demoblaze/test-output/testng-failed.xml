@@ -4,20 +4,6 @@
   <test thread-count="2" name="Chrome Test(failed)" parallel="tests">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.atmecs.demoblaze.testscripts.Login">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="lunchBrowser"/>
-          <include name="login"/>
-        </methods>
-      </class> <!-- com.atmecs.demoblaze.testscripts.Login -->
-      <class name="com.atmecs.demoblaze.testscripts.Registration">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="lunchBrowser"/>
-          <include name="register"/>
-        </methods>
-      </class> <!-- com.atmecs.demoblaze.testscripts.Registration -->
       <class name="com.atmecs.demoblaze.testscripts.ContactUs">
         <methods>
           <include name="contactus"/>
@@ -32,25 +18,18 @@
           <include name="addtoCart"/>
         </methods>
       </class> <!-- com.atmecs.demoblaze.testscripts.AddToCart -->
+      <class name="com.atmecs.demoblaze.testscripts.Registration">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="lunchBrowser"/>
+          <include name="register"/>
+        </methods>
+      </class> <!-- com.atmecs.demoblaze.testscripts.Registration -->
     </classes>
   </test> <!-- Chrome Test(failed) -->
   <test thread-count="2" name="Firefox Test(failed)" parallel="tests">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.atmecs.demoblaze.testscripts.Login">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="lunchBrowser"/>
-          <include name="login"/>
-        </methods>
-      </class> <!-- com.atmecs.demoblaze.testscripts.Login -->
-      <class name="com.atmecs.demoblaze.testscripts.Registration">
-        <methods>
-          <include name="closeBrowser"/>
-          <include name="lunchBrowser"/>
-          <include name="register"/>
-        </methods>
-      </class> <!-- com.atmecs.demoblaze.testscripts.Registration -->
       <class name="com.atmecs.demoblaze.testscripts.ContactUs">
         <methods>
           <include name="contactus"/>
@@ -58,6 +37,13 @@
           <include name="lunchBrowser"/>
         </methods>
       </class> <!-- com.atmecs.demoblaze.testscripts.ContactUs -->
+      <class name="com.atmecs.demoblaze.testscripts.Login">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="lunchBrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.atmecs.demoblaze.testscripts.Login -->
       <class name="com.atmecs.demoblaze.testscripts.AddToCart">
         <methods>
           <include name="closeBrowser"/>
@@ -65,6 +51,13 @@
           <include name="addtoCart"/>
         </methods>
       </class> <!-- com.atmecs.demoblaze.testscripts.AddToCart -->
+      <class name="com.atmecs.demoblaze.testscripts.Registration">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="lunchBrowser"/>
+          <include name="register"/>
+        </methods>
+      </class> <!-- com.atmecs.demoblaze.testscripts.Registration -->
     </classes>
   </test> <!-- Firefox Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
