@@ -3,11 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.atmecs.atmecsautomation.testscripts.MoreInfoButtonCSSEffect"/>
-      <class name="com.atmecs.atmecsautomation.testscripts.HyperlinksTest"/>
-      <class name="com.atmecs.atmecsautomation.testscripts.HeaderFooterTest"/>
-      <class name="com.atmecs.atmecsautomation.testscripts.SubmenuServicesDigitalLife"/>
-      <class name="com.atmecs.atmecsautomation.testscripts.MenuWithSubMenuItems"/>
+    	<class name="com.atmecs.atmecsautomation.testscripts.HeaderFooterTest"/>
+    	<class name="com.atmecs.atmecsautomation.testscripts.HyperlinksTest"/>
+    	<class name="com.atmecs.atmecsautomation.testscripts.MenuWithSubMenuItems"/>
+    	<class name="com.atmecs.atmecsautomation.testscripts.SubmenuServicesDigitalLife"/>
+      	<class name="com.atmecs.atmecsautomation.testscripts.MoreInfoButtonCSSEffect"/>    
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
