@@ -150,7 +150,6 @@ public class HomePage extends Baseclass {
 		System.out.println("Tweeter Link Test Passed");
 			driver.switchTo().window(parentWindow);
 			driver.switchTo().defaultContent();
-			Thread.sleep(10000);
 		}}
 		
 		ElementHelper.clickElement(driver, loc_path.getProperty("Linkedin"));
@@ -167,8 +166,10 @@ public class HomePage extends Baseclass {
 		Assert.assertEquals(url35, url36);
 		System.out.println("LinkedIn Link Test Passed");
 		driver.switchTo().window(parentWindow2);
-	}
-		}}
+	}}
+		}
+	
+	
 	// Header Footer Available on Home Page Test 
 		
 	public void headerFooter() {
@@ -200,7 +201,7 @@ public class HomePage extends Baseclass {
 		String buttonColour = driver.findElement(By.xpath(loc_path.getProperty("Aimoreinfo"))).getCssValue("background-color");
 		a.moveToElement(driver.findElement(By.xpath(loc_path.getProperty("Aimoreinfo")))).build().perform();
 		String buttonColour2 = driver.findElement(By.xpath(loc_path.getProperty("Aimoreinfo"))).getCssValue("background-color");
-		System.out.println(buttonColour + buttonColour2);
+		System.out.println("Colour Codes Before and After : "+buttonColour + buttonColour2);
 		Assert.assertNotEquals(buttonColour, buttonColour2);
 		System.out.println("More Info Button Colour Change On Mouse Hover for Artificial Intelligence Test Passed");
 		
@@ -208,7 +209,7 @@ public class HomePage extends Baseclass {
 		String buttonColour3 = driver.findElement(By.xpath(loc_path.getProperty("Armoreinfo"))).getCssValue("background-color");
 		a.moveToElement(driver.findElement(By.xpath(loc_path.getProperty("Armoreinfo")))).build().perform();
 		String buttonColour4 = driver.findElement(By.xpath(loc_path.getProperty("Armoreinfo"))).getCssValue("background-color");
-		System.out.println(buttonColour3 + buttonColour4);
+		System.out.println("Colour Codes Before and After : " +buttonColour3 + buttonColour4);
 		Assert.assertNotEquals(buttonColour3, buttonColour4);
 		System.out.println("More Info Button Colour Change On Mouse Hover for Augmented Reality Test Passed");
 		
@@ -216,7 +217,7 @@ public class HomePage extends Baseclass {
 		String buttonColour5 = driver.findElement(By.xpath(loc_path.getProperty("Iotmoreinfo"))).getCssValue("background-color");
 		a.moveToElement(driver.findElement(By.xpath(loc_path.getProperty("Iotmoreinfo")))).build().perform();
 		String buttonColour6 = driver.findElement(By.xpath(loc_path.getProperty("Iotmoreinfo"))).getCssValue("background-color");
-		System.out.println(buttonColour5 + buttonColour6);
+		System.out.println("Colour Codes Before and After : " +buttonColour5 + buttonColour6);
 		Assert.assertNotEquals(buttonColour5, buttonColour6);
 		System.out.println("More Info Button Colour Change On Mouse Hover for IOT Test Passed");
 		
@@ -224,7 +225,7 @@ public class HomePage extends Baseclass {
 		String buttonColour7 = driver.findElement(By.xpath(loc_path.getProperty("Rpamoreinfo"))).getCssValue("background-color");
 		a.moveToElement(driver.findElement(By.xpath(loc_path.getProperty("Rpamoreinfo")))).build().perform();
 		String buttonColour8 = driver.findElement(By.xpath(loc_path.getProperty("Rpamoreinfo"))).getCssValue("background-color");
-		System.out.println(buttonColour7 + buttonColour8);
+		System.out.println("Colour Codes Before and After : " +buttonColour7 + buttonColour8);
 		Assert.assertNotEquals(buttonColour7, buttonColour8);
 		System.out.println("More Info Button Colour Change On Mouse Hover for RPA Test Passed");
 		
@@ -232,7 +233,7 @@ public class HomePage extends Baseclass {
 		String buttonColour9 = driver.findElement(By.xpath(loc_path.getProperty("BCmoreinfo"))).getCssValue("background-color");
 		a.moveToElement(driver.findElement(By.xpath(loc_path.getProperty("BCmoreinfo")))).build().perform();
 		String buttonColour10 = driver.findElement(By.xpath(loc_path.getProperty("BCmoreinfo"))).getCssValue("background-color");
-		System.out.println(buttonColour9 + buttonColour10);
+		System.out.println("Colour Codes Before and After : " +buttonColour9 + buttonColour10);
 		Assert.assertNotEquals(buttonColour9, buttonColour10);
 		System.out.println("More Info Button Colour Change On Mouse Hover for Block Chain Test Passed");
 		
