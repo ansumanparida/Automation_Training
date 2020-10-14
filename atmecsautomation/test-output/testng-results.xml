@@ -2,76 +2,76 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="163231" started-at="2020-10-14T11:22:10 IST" finished-at="2020-10-14T11:24:53 IST">
+  <suite name="Suite" duration-ms="136698" started-at="2020-10-14T11:38:00 IST" finished-at="2020-10-14T11:40:17 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="163231" started-at="2020-10-14T11:22:10 IST" finished-at="2020-10-14T11:24:53 IST">
+    <test name="Test" duration-ms="136698" started-at="2020-10-14T11:38:00 IST" finished-at="2020-10-14T11:40:17 IST">
       <class name="com.atmecs.atmecsautomation.testscripts.HyperlinksTest">
-        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:com.atmecs.atmecsautomation.testscripts.HyperlinksTest@64729b1e]" name="lunchBrowser" is-config="true" duration-ms="11174" started-at="2020-10-14T11:22:25 IST" finished-at="2020-10-14T11:22:36 IST">
+        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:com.atmecs.atmecsautomation.testscripts.HyperlinksTest@64729b1e]" name="lunchBrowser" is-config="true" duration-ms="9979" started-at="2020-10-14T11:38:14 IST" finished-at="2020-10-14T11:38:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchBrowser -->
-        <test-method status="PASS" signature="doHyperlinkTest()[pri:2, instance:com.atmecs.atmecsautomation.testscripts.HyperlinksTest@64729b1e]" name="doHyperlinkTest" duration-ms="47993" started-at="2020-10-14T11:22:36 IST" finished-at="2020-10-14T11:23:24 IST">
+        <test-method status="PASS" signature="doHyperlinkTest()[pri:2, instance:com.atmecs.atmecsautomation.testscripts.HyperlinksTest@64729b1e]" name="doHyperlinkTest" duration-ms="33699" started-at="2020-10-14T11:38:24 IST" finished-at="2020-10-14T11:38:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doHyperlinkTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.atmecs.atmecsautomation.testscripts.HyperlinksTest@64729b1e]" name="closeBrowser" is-config="true" duration-ms="1030" started-at="2020-10-14T11:23:24 IST" finished-at="2020-10-14T11:23:25 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.atmecs.atmecsautomation.testscripts.HyperlinksTest@64729b1e]" name="closeBrowser" is-config="true" duration-ms="1623" started-at="2020-10-14T11:38:57 IST" finished-at="2020-10-14T11:38:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.atmecs.atmecsautomation.testscripts.HyperlinksTest -->
       <class name="com.atmecs.atmecsautomation.testscripts.MoreInfoButtonCSSEffect">
-        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:com.atmecs.atmecsautomation.testscripts.MoreInfoButtonCSSEffect@6895a785]" name="lunchBrowser" is-config="true" duration-ms="12902" started-at="2020-10-14T11:24:38 IST" finished-at="2020-10-14T11:24:51 IST">
+        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:com.atmecs.atmecsautomation.testscripts.MoreInfoButtonCSSEffect@6895a785]" name="lunchBrowser" is-config="true" duration-ms="10519" started-at="2020-10-14T11:40:04 IST" finished-at="2020-10-14T11:40:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchBrowser -->
-        <test-method status="PASS" signature="cssEffect()[pri:3, instance:com.atmecs.atmecsautomation.testscripts.MoreInfoButtonCSSEffect@6895a785]" name="cssEffect" duration-ms="1518" started-at="2020-10-14T11:24:51 IST" finished-at="2020-10-14T11:24:52 IST">
+        <test-method status="PASS" signature="cssEffect()[pri:3, instance:com.atmecs.atmecsautomation.testscripts.MoreInfoButtonCSSEffect@6895a785]" name="cssEffect" duration-ms="1561" started-at="2020-10-14T11:40:14 IST" finished-at="2020-10-14T11:40:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cssEffect -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.atmecs.atmecsautomation.testscripts.MoreInfoButtonCSSEffect@6895a785]" name="closeBrowser" is-config="true" duration-ms="975" started-at="2020-10-14T11:24:52 IST" finished-at="2020-10-14T11:24:53 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.atmecs.atmecsautomation.testscripts.MoreInfoButtonCSSEffect@6895a785]" name="closeBrowser" is-config="true" duration-ms="990" started-at="2020-10-14T11:40:16 IST" finished-at="2020-10-14T11:40:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.atmecs.atmecsautomation.testscripts.MoreInfoButtonCSSEffect -->
       <class name="com.atmecs.atmecsautomation.testscripts.HeaderFooterTest">
-        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:com.atmecs.atmecsautomation.testscripts.HeaderFooterTest@4e7dc304]" name="lunchBrowser" is-config="true" duration-ms="13439" started-at="2020-10-14T11:22:10 IST" finished-at="2020-10-14T11:22:24 IST">
+        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:com.atmecs.atmecsautomation.testscripts.HeaderFooterTest@4e7dc304]" name="lunchBrowser" is-config="true" duration-ms="12015" started-at="2020-10-14T11:38:00 IST" finished-at="2020-10-14T11:38:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchBrowser -->
-        <test-method status="PASS" signature="headerFooter()[pri:1, instance:com.atmecs.atmecsautomation.testscripts.HeaderFooterTest@4e7dc304]" name="headerFooter" duration-ms="443" started-at="2020-10-14T11:22:24 IST" finished-at="2020-10-14T11:22:24 IST">
+        <test-method status="PASS" signature="headerFooter()[pri:1, instance:com.atmecs.atmecsautomation.testscripts.HeaderFooterTest@4e7dc304]" name="headerFooter" duration-ms="446" started-at="2020-10-14T11:38:12 IST" finished-at="2020-10-14T11:38:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- headerFooter -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.atmecs.atmecsautomation.testscripts.HeaderFooterTest@4e7dc304]" name="closeBrowser" is-config="true" duration-ms="1074" started-at="2020-10-14T11:22:24 IST" finished-at="2020-10-14T11:22:25 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.atmecs.atmecsautomation.testscripts.HeaderFooterTest@4e7dc304]" name="closeBrowser" is-config="true" duration-ms="899" started-at="2020-10-14T11:38:13 IST" finished-at="2020-10-14T11:38:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.atmecs.atmecsautomation.testscripts.HeaderFooterTest -->
       <class name="com.atmecs.atmecsautomation.testscripts.SubmenuServicesDigitalLife">
-        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:com.atmecs.atmecsautomation.testscripts.SubmenuServicesDigitalLife@48503868]" name="lunchBrowser" is-config="true" duration-ms="12673" started-at="2020-10-14T11:24:16 IST" finished-at="2020-10-14T11:24:28 IST">
+        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:com.atmecs.atmecsautomation.testscripts.SubmenuServicesDigitalLife@48503868]" name="lunchBrowser" is-config="true" duration-ms="11562" started-at="2020-10-14T11:39:43 IST" finished-at="2020-10-14T11:39:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchBrowser -->
-        <test-method status="PASS" signature="subMenuDigitalLife()[pri:4, instance:com.atmecs.atmecsautomation.testscripts.SubmenuServicesDigitalLife@48503868]" name="subMenuDigitalLife" duration-ms="8611" started-at="2020-10-14T11:24:28 IST" finished-at="2020-10-14T11:24:37 IST">
+        <test-method status="PASS" signature="subMenuDigitalLife()[pri:4, instance:com.atmecs.atmecsautomation.testscripts.SubmenuServicesDigitalLife@48503868]" name="subMenuDigitalLife" duration-ms="8114" started-at="2020-10-14T11:39:55 IST" finished-at="2020-10-14T11:40:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subMenuDigitalLife -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.atmecs.atmecsautomation.testscripts.SubmenuServicesDigitalLife@48503868]" name="closeBrowser" is-config="true" duration-ms="919" started-at="2020-10-14T11:24:37 IST" finished-at="2020-10-14T11:24:38 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.atmecs.atmecsautomation.testscripts.SubmenuServicesDigitalLife@48503868]" name="closeBrowser" is-config="true" duration-ms="1155" started-at="2020-10-14T11:40:03 IST" finished-at="2020-10-14T11:40:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.atmecs.atmecsautomation.testscripts.SubmenuServicesDigitalLife -->
       <class name="com.atmecs.atmecsautomation.testscripts.MenuWithSubMenuItems">
-        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:com.atmecs.atmecsautomation.testscripts.MenuWithSubMenuItems@10bbd20a]" name="lunchBrowser" is-config="true" duration-ms="12177" started-at="2020-10-14T11:23:25 IST" finished-at="2020-10-14T11:23:38 IST">
+        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:com.atmecs.atmecsautomation.testscripts.MenuWithSubMenuItems@10bbd20a]" name="lunchBrowser" is-config="true" duration-ms="10550" started-at="2020-10-14T11:38:59 IST" finished-at="2020-10-14T11:39:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchBrowser -->
-        <test-method status="PASS" signature="menuWithSubMenu()[pri:5, instance:com.atmecs.atmecsautomation.testscripts.MenuWithSubMenuItems@10bbd20a]" name="menuWithSubMenu" duration-ms="37138" started-at="2020-10-14T11:23:38 IST" finished-at="2020-10-14T11:24:15 IST">
+        <test-method status="PASS" signature="menuWithSubMenu()[pri:5, instance:com.atmecs.atmecsautomation.testscripts.MenuWithSubMenuItems@10bbd20a]" name="menuWithSubMenu" duration-ms="32625" started-at="2020-10-14T11:39:09 IST" finished-at="2020-10-14T11:39:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- menuWithSubMenu -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.atmecs.atmecsautomation.testscripts.MenuWithSubMenuItems@10bbd20a]" name="closeBrowser" is-config="true" duration-ms="1099" started-at="2020-10-14T11:24:15 IST" finished-at="2020-10-14T11:24:16 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.atmecs.atmecsautomation.testscripts.MenuWithSubMenuItems@10bbd20a]" name="closeBrowser" is-config="true" duration-ms="896" started-at="2020-10-14T11:39:42 IST" finished-at="2020-10-14T11:39:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
