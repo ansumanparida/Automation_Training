@@ -1,22 +1,23 @@
 package com.atmecs.apitesting.testscripts;
 
+import java.net.MalformedURLException;
 import java.net.URL;
 
-import javax.xml.ws.Response;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.atmecs.apitesting.testdataprovider.UsersDataProvider;
 
+import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 public class GetApiTest {
 	@Test(dataProvider = "usersdata", dataProviderClass = UsersDataProvider.class)
-	public void testGetApi(String url, String firstName, String lastName) {
+	public void testGetApi(String url, String firstName, String lastName) throws MalformedURLException {
 		String requestedUrl = url;
-		
 		RequestSpecification request = RestAssured.given();		
 		Response response = request.get(new URL(requestedUrl));
 		
@@ -39,6 +40,6 @@ public class GetApiTest {
 		System.out.println("Status Code = " + statusCode);
 		System.out.println("Response Body = " + body);
 		
-	}
-
+	}	
+	
 }

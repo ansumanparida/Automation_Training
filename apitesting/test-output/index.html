@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\ansuman.parida\AppData\Local\Temp\testng-eclipse-125904608\testng-customsuite.xml</span>
+                    <span>C:\Users\ansuman.parida\AppData\Local\Temp\testng-eclipse-998100029\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.atmecs.apitesting.testscripts.GetApiTest" hash-for-method="testGetApi(null, null, null)">testGetApi(null, null, null)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.atmecs.apitesting.testscripts.GetApiTest" hash-for-method="testGetApi(https://reqres.in/api/users/2, Janet, Weaver)">testGetApi(https://reqres.in/api/users/2, Janet, Weaver)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -127,19 +127,20 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testGetApi(null, null, null)">
-                  </a> <!-- testGetApi(null, null, null) -->
+                  <a name="testGetApi(https://reqres.in/api/users/2, Janet, Weaver)">
+                  </a> <!-- testGetApi(https://reqres.in/api/users/2, Janet, Weaver) -->
                   <span class="method-name">testGetApi</span>
-                  <span class="parameters">(null, null, null)</span>
-                  <div class="stack-trace">java.lang.Error: Unresolved compilation problems: 
-	RequestSpecification cannot be resolved to a type
-	RestAssured cannot be resolved
-	The method getStatusCode() is undefined for the type Response
-	The method getBody() is undefined for the type Response
-	JsonPath cannot be resolved to a type
-	The method jsonPath() is undefined for the type Response
-
-	at com.atmecs.apitesting.testscripts.GetApiTest.testGetApi(GetApiTest.java:19)
+                  <span class="parameters">(https://reqres.in/api/users/2, Janet, Weaver)</span>
+                  <div class="stack-trace">groovy.lang.MissingMethodException: No signature of method: io.restassured.path.json.config.JsonPathConfig.jackson1ObjectMapperFactory() is applicable for argument types: (io.restassured.path.json.mapper.factory.DefaultJackson1ObjectMapperFactory) values: [io.restassured.path.json.mapper.factory.DefaultJackson1ObjectMapperFactory@a50b09c]
+Possible solutions: jackson1ObjectMapperFactory(), jackson1ObjectMapperFactory(io.restassured.mapper.factory.Jackson1ObjectMapperFactory), jackson2ObjectMapperFactory(), jackson2ObjectMapperFactory(io.restassured.mapper.factory.Jackson2ObjectMapperFactory)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:70)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaClassSite.call(PojoMetaClassSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.jsonPath(RestAssuredResponseOptionsGroovyImpl.groovy:367)
+	at io.restassured.internal.RestAssuredResponseOptionsImpl.jsonPath(RestAssuredResponseOptionsImpl.java:205)
+	at com.atmecs.apitesting.testscripts.GetApiTest.testGetApi(GetApiTest.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -177,7 +178,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ansuman.parida\AppData\Local\Temp\testng-eclipse-125904608\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\ansuman.parida\AppData\Local\Temp\testng-eclipse-998100029\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -187,9 +188,6 @@
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.atmecs.apitesting.testscripts.GetApiTest&quot;/&gt;
-      &lt;class name=&quot;com.atmecs.apitesting.utils.PropertyReader&quot;/&gt;
-      &lt;class name=&quot;com.atmecs.apitesting.testdataprovider.UsersDataProvider&quot;/&gt;
-      &lt;class name=&quot;com.atmecs.apitesting.constants.FileConstants&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -203,7 +201,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (4 classes)</span>
+                <span class="test-name">Default test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -233,12 +231,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testGetApi')
 data.setCell(0, 2, 'com.atmecs.apitesting.testscripts.GetApiTest')
-data.setCell(0, 3, 8);
+data.setCell(0, 3, 4093);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 ms</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -268,7 +266,7 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">testGetApi(null, null, null)</span>
+                <span class="method-name">testGetApi(https://reqres.in/api/users/2, Janet, Weaver)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->

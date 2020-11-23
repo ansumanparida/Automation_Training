@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Nov 06 11:33:04 IST 2020</td>
+<td>Started on:</td><td>Fri Nov 13 12:33:57 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (76 ms)</td>
+<tr><td>Total time:</td><td>4 seconds (4163 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,16 +75,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.atmecs.apitesting.testscripts.GetApiTest.testGetApi()'><b>testGetApi</b><br>Test class: com.atmecs.apitesting.testscripts.GetApiTest<br>Parameters: null, null, null</td>
-<td><div><pre>java.lang.Error: Unresolved compilation problems: 
-	RequestSpecification cannot be resolved to a type
-	RestAssured cannot be resolved
-	The method getStatusCode() is undefined for the type Response
-	The method getBody() is undefined for the type Response
-	JsonPath cannot be resolved to a type
-	The method jsonPath() is undefined for the type Response
-
-	at com.atmecs.apitesting.testscripts.GetApiTest.testGetApi(GetApiTest.java:19)
+<td title='com.atmecs.apitesting.testscripts.GetApiTest.testGetApi()'><b>testGetApi</b><br>Test class: com.atmecs.apitesting.testscripts.GetApiTest<br>Parameters: https://reqres.in/api/users/2, Janet, Weaver</td>
+<td><div><pre>groovy.lang.MissingMethodException: No signature of method: io.restassured.path.json.config.JsonPathConfig.jackson1ObjectMapperFactory() is applicable for argument types: (io.restassured.path.json.mapper.factory.DefaultJackson1ObjectMapperFactory) values: [io.restassured.path.json.mapper.factory.DefaultJackson1ObjectMapperFactory@a50b09c]
+Possible solutions: jackson1ObjectMapperFactory(), jackson1ObjectMapperFactory(io.restassured.mapper.factory.Jackson1ObjectMapperFactory), jackson2ObjectMapperFactory(), jackson2ObjectMapperFactory(io.restassured.mapper.factory.Jackson2ObjectMapperFactory)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:70)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaClassSite.call(PojoMetaClassSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.jsonPath(RestAssuredResponseOptionsGroovyImpl.groovy:367)
+	at io.restassured.internal.RestAssuredResponseOptionsImpl.jsonPath(RestAssuredResponseOptionsImpl.java:205)
+	at com.atmecs.apitesting.testscripts.GetApiTest.testGetApi(GetApiTest.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -113,16 +114,17 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1920467934", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1920467934'><pre>java.lang.Error: Unresolved compilation problems: 
-	RequestSpecification cannot be resolved to a type
-	RestAssured cannot be resolved
-	The method getStatusCode() is undefined for the type Response
-	The method getBody() is undefined for the type Response
-	JsonPath cannot be resolved to a type
-	The method jsonPath() is undefined for the type Response
-
-	at com.atmecs.apitesting.testscripts.GetApiTest.testGetApi(GetApiTest.java:19)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1052842393", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1052842393'><pre>groovy.lang.MissingMethodException: No signature of method: io.restassured.path.json.config.JsonPathConfig.jackson1ObjectMapperFactory() is applicable for argument types: (io.restassured.path.json.mapper.factory.DefaultJackson1ObjectMapperFactory) values: [io.restassured.path.json.mapper.factory.DefaultJackson1ObjectMapperFactory@a50b09c]
+Possible solutions: jackson1ObjectMapperFactory(), jackson1ObjectMapperFactory(io.restassured.mapper.factory.Jackson1ObjectMapperFactory), jackson2ObjectMapperFactory(), jackson2ObjectMapperFactory(io.restassured.mapper.factory.Jackson2ObjectMapperFactory)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:70)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaClassSite.call(PojoMetaClassSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.jsonPath(RestAssuredResponseOptionsGroovyImpl.groovy:367)
+	at io.restassured.internal.RestAssuredResponseOptionsImpl.jsonPath(RestAssuredResponseOptionsImpl.java:205)
+	at com.atmecs.apitesting.testscripts.GetApiTest.testGetApi(GetApiTest.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -152,8 +154,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
-<td>com.atmecs.apitesting.testscripts.GetApiTest@71bbf57e</td></tr>
+<td>4</td>
+<td>com.atmecs.apitesting.testscripts.GetApiTest@3b084709</td></tr>
 </table><p>
 </body>
 </html>

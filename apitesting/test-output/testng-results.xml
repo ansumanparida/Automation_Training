@@ -2,44 +2,45 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="76" started-at="2020-11-06T11:33:04 IST" finished-at="2020-11-06T11:33:05 IST">
+  <suite name="Default suite" duration-ms="4163" started-at="2020-11-13T12:33:57 IST" finished-at="2020-11-13T12:34:01 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="76" started-at="2020-11-06T11:33:04 IST" finished-at="2020-11-06T11:33:05 IST">
+    <test name="Default test" duration-ms="4163" started-at="2020-11-13T12:33:57 IST" finished-at="2020-11-13T12:34:01 IST">
       <class name="com.atmecs.apitesting.testscripts.GetApiTest">
-        <test-method status="FAIL" signature="testGetApi(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.apitesting.testscripts.GetApiTest@71bbf57e]" name="testGetApi" duration-ms="8" started-at="2020-11-06T11:33:05 IST" data-provider="usersdata" finished-at="2020-11-06T11:33:05 IST">
+        <test-method status="FAIL" signature="testGetApi(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.atmecs.apitesting.testscripts.GetApiTest@3b084709]" name="testGetApi" duration-ms="4093" started-at="2020-11-13T12:33:57 IST" data-provider="usersdata" finished-at="2020-11-13T12:34:01 IST">
           <params>
             <param index="0">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[https://reqres.in/api/users/2]]>
+              </value>
             </param>
             <param index="1">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[Janet]]>
+              </value>
             </param>
             <param index="2">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[Weaver]]>
+              </value>
             </param>
           </params>
-          <exception class="java.lang.Error">
+          <exception class="groovy.lang.MissingMethodException">
             <message>
-              <![CDATA[Unresolved compilation problems: 
-RequestSpecification cannot be resolved to a type
-RestAssured cannot be resolved
-The method getStatusCode() is undefined for the type Response
-The method getBody() is undefined for the type Response
-JsonPath cannot be resolved to a type
-The method jsonPath() is undefined for the type Response
-]]>
+              <![CDATA[No signature of method: io.restassured.path.json.config.JsonPathConfig.jackson1ObjectMapperFactory() is applicable for argument types: (io.restassured.path.json.mapper.factory.DefaultJackson1ObjectMapperFactory) values: [io.restassured.path.json.mapper.factory.DefaultJackson1ObjectMapperFactory@a50b09c]
+Possible solutions: jackson1ObjectMapperFactory(), jackson1ObjectMapperFactory(io.restassured.mapper.factory.Jackson1ObjectMapperFactory), jackson2ObjectMapperFactory(), jackson2ObjectMapperFactory(io.restassured.mapper.factory.Jackson2ObjectMapperFactory)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problems: 
-RequestSpecification cannot be resolved to a type
-RestAssured cannot be resolved
-The method getStatusCode() is undefined for the type Response
-The method getBody() is undefined for the type Response
-JsonPath cannot be resolved to a type
-The method jsonPath() is undefined for the type Response
-
-at com.atmecs.apitesting.testscripts.GetApiTest.testGetApi(GetApiTest.java:19)
+              <![CDATA[groovy.lang.MissingMethodException: No signature of method: io.restassured.path.json.config.JsonPathConfig.jackson1ObjectMapperFactory() is applicable for argument types: (io.restassured.path.json.mapper.factory.DefaultJackson1ObjectMapperFactory) values: [io.restassured.path.json.mapper.factory.DefaultJackson1ObjectMapperFactory@a50b09c]
+Possible solutions: jackson1ObjectMapperFactory(), jackson1ObjectMapperFactory(io.restassured.mapper.factory.Jackson1ObjectMapperFactory), jackson2ObjectMapperFactory(), jackson2ObjectMapperFactory(io.restassured.mapper.factory.Jackson2ObjectMapperFactory)
+at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.unwrap(ScriptBytecodeAdapter.java:70)
+at org.codehaus.groovy.runtime.callsite.PojoMetaClassSite.call(PojoMetaClassSite.java:46)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.jsonPath(RestAssuredResponseOptionsGroovyImpl.groovy:367)
+at io.restassured.internal.RestAssuredResponseOptionsImpl.jsonPath(RestAssuredResponseOptionsImpl.java:205)
+at com.atmecs.apitesting.testscripts.GetApiTest.testGetApi(GetApiTest.java:27)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -70,7 +71,7 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+          </exception> <!-- groovy.lang.MissingMethodException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetApi -->

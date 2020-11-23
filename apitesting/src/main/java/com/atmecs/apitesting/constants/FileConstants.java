@@ -8,5 +8,9 @@ public class FileConstants {
 	public static final String TESTDATA_DIR = RESOURCES_DIR + File.separator + "testdata";
 	
 	//testdata files path
-	public static final String USERS_DATA_PROP_FILE = TESTDATA_DIR + File.separator + "usersdata.properties";
+	public static final String USERS_DATA_PROP_FILE = "D:\\SDET Certification\\Automation_trainning\\Automation_Training\\apitesting\\src\\main\\resources\\tastdata\\usersdata.properties";//TESTDATA_DIR + File.separator + "usersdata.properties";
+	public static final String USER_DATA_JSON_FILE = TESTDATA_DIR + File.separator + "user.json";
+	
+	
 }
+
